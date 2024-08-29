@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #e3e3e3b3;
+}
+
+.realTimeText{
+    @apply text-lg font-semibold z-10;
+}
+
+.realTimeNumber{
+    @apply px-2 bg-[#373737] text-white text-center rounded-md absolute right-0 top-0;
+}
+
+.active{
+    @apply text-blue-500 font-semibold;
+}
+
+
